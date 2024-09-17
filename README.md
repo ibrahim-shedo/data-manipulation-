@@ -23,8 +23,7 @@ The dataset consists of weather records from January 3, 2012, to December 30, 20
    unique_wind_speeds = df['Wind Speed_km/h'].unique()
 Find the number of times when 'weather is exactly clear'
 
-python
-Copy code
+
 clear_weather_count = df[df['Weather condition'] == 'Clear'].shape[0]
 Find the number of times when 'wind speed is exactly 4 km/h'
 
